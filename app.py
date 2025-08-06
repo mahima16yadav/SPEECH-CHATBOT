@@ -6,6 +6,18 @@ from io import BytesIO
 import base64
 import re
 
+st.set_page_config(page_title="🎙️ Voice Bot", layout="wide")
+st.markdown("""
+    <style>
+    .block-container h1 {
+        margin-top: -5rem !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+st.markdown("""
+    <h1 style='text-align: center; margin-top: -5rem; color: #fff;'>🎙️ Speech Bot</h1>
+""", unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     body, .stApp {
@@ -38,17 +50,17 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.set_page_config(page_title="🎙️ Voice Bot", layout="wide")
-st.markdown("""
-    <style>
-    .block-container h1 {
-        margin-top: -5rem !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
-st.markdown("""
-    <h1 style='text-align: center; margin-top: -5rem; color: #fff;'>🎙️ Speech Bot</h1>
-""", unsafe_allow_html=True)
+# st.set_page_config(page_title="🎙️ Voice Bot", layout="wide")
+# st.markdown("""
+#     <style>
+#     .block-container h1 {
+#         margin-top: -5rem !important;
+#     }
+#     </style>
+# """, unsafe_allow_html=True)
+# st.markdown("""
+#     <h1 style='text-align: center; margin-top: -5rem; color: #fff;'>🎙️ Speech Bot</h1>
+# """, unsafe_allow_html=True)
 
 st.sidebar.title("`Mock Interview Bot` \n`in English/Hindi`")
 
