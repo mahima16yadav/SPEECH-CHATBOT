@@ -1,3 +1,6 @@
 streamlit==1.37.0
 google-generativeai
 streamlit_mic_recorder==0.0.6
+gTTS==2.5.1
+pydub==0.25.1
+
